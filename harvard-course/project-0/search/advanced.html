@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <form action="https://www.google.com/search">
+                <table id="table">
+                    <tr>
+                        <th><label for="all">All these words:</label></th>
+                        <th><input type="text" name="as_q" id="all"></th>
+                    </tr>
+                    <tr>
+                        <th><label for="exact">This exact word or phrase:</label></th>
+                        <th><input type="text" name="as_epq" id="exact"></th>
+                    </tr>
+                    <tr>
+                        <th><label for="any">Any of these words:</label></th>
+                        <th><input type="text" name="as_oq" id="any"></th>
+                    </tr>
+                    <tr>
+                        <th><label for="none">None of these words:</label></th>
+                        <th><input type="text" name="as_eq" id="none"></th>
+                    </tr>
+                </table>
+            <div id="buttons">
+                <input type="submit" value="Google Advanced Search" class="google" id="advanced">
+            </div>
+        </form>
+
+        <button onclick="location.href='index.html'" type="button" class="top-right google">Google Search</button>
+    </body>
+</html>
