@@ -4,6 +4,10 @@
     right: 16px;
 }
 
+body h4 {
+    text-align: left;
+}
+
 #centered {
     position: absolute;
     top: 50%;
@@ -21,6 +25,12 @@ body {
 
 .google {
     border-radius: 5px;
+}
+
+.googled {
+    border-radius: 3px;
+    height: 30px:
+    min-width: 120px;
 }
 
 #buttons {
@@ -49,7 +59,21 @@ body {
     display: inline-block; */
 }
 
-#advanced {
+td {
+    text-align: right;
+}
+
+.advanced {
+    /*position: absolute;*/
+    display: inline;
+    text-align: center;
     background-color: #4D90FE;
-    colour: white;
+    color: #FFFFFF;
+    height: 30px;
+    min-width: 120px;
+    border: 1px solid black;
+}
+
+#all, #exact, #any, #none {
+    width: 200px;
 }

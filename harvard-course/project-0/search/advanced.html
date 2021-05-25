@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
+
+    <h4>Find pages with...</h4>
         <form action="https://www.google.com/search">
                 <table id="table">
                     <tr>
@@ -23,10 +25,14 @@
                         <th><label for="none">None of these words:</label></th>
                         <th><input type="text" name="as_eq" id="none"></th>
                     </tr>
+                    <tr>
+                        <th></th>
+                        <td><input type="submit" value="Advanced Search" class="googled advanced"></td>
+                    </tr>
                 </table>
-            <div id="buttons">
-                <input type="submit" value="Google Advanced Search" class="google" id="advanced">
-            </div>
+<!--            <div id="buttons">-->
+<!--                <input type="submit" value="Google Advanced Search" class="google" id="advanced">-->
+<!--            </div>-->
         </form>
 
         <button onclick="location.href='index.html'" type="button" class="top-right google">Google Search</button>
